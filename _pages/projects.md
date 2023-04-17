@@ -2,10 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Projects during my Bachelor and Master studies
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [academic]
+#display_categories: [work, fun]
 horizontal: false
 ---
 
