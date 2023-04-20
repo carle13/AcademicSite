@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bachelor's thesis
+title: Bachelor's Thesis
 description: Molecular Dynamics Simulation of Porphyrin Adsorption on Clay for the formation of a Light Harvesting System
 img: assets/img/porphyrins.png
 importance: 4

@@ -7,29 +7,9 @@ importance: 2
 category: academic
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Python code developed during my master's internship in Toulouse in 2022, under the supervision of Dr. Julien Lam and Dr. Akshay Krishna. The code makes use of the Python interface library for <a href="https://docs.lammps.org/Python_module.html">LAMMPS</a>, and uses <a href="https://mpi4py.readthedocs.io/en/stable/">mpi4py</a> to perform computations in parallel. The <a href="https://compphysvienna.github.io/n2p2/">n2p2</a> and <a href="https://www.vasp.at/">VASP</a> binaries are executed using the `os.system()` function in Python. The code can be viewed <a href="https://github.com/carle13/LASP2Interface">here</a>.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+For my Science Watch project I kept working on the code and performing tests on gold systems. The report can be seen <a href="assets/pdf/scientificWatchFall2022.pdf">here</a>.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
+### Abstract:
+Machine learning (ML) methods have become more relevant in materials science over the last decade. They are now well recognized as effective methods for approximating extremely complex functions. Machine learning interaction potentials (MLIP) offer computation speeds close to empirical potentials, while having an accuracy close to the method used in training. In this project, an active learning approach was tested for the extension of gold databases with BCC and surface structures. The active learning approach used was Query by Committee (QbC), implemented in the lasp2 interface. The machine learning framework n2p2 was used for the creation of potentials and Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) was used for exploring the phase space with NVT simulations. For selected structures, the vasp software was used to compute forces and energy using Density-Functional Theory (DFT), which where then added to the database. Potentials were then trained on-the-fly using lasp2 to measure the disagreement between the committee and then deciding when a certain structure should be added to the database. LAMMPS was then used to calculate surface energies for (100) and (111) structures, as well as BCC bulk modulus. These physical properties served as control parameters to test whether the potential was improving with on-the-fly training. It was found that the lasp2 method can improve a potential by doing on-the-fly training, however it is not always the case, as seen with BCC structures. For the (100) and (111) surfaces we were able to quickly recover the values predicted with a manually created database. In the case of BCC, no clear improvement could be seen, and the error in bulk modulus seemed to behave arbitrarily, even when using the complete manually created database as a starting point.

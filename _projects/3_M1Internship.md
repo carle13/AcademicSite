@@ -7,29 +7,7 @@ importance: 3
 category: academic
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Master's internship project under the supervision of Dr. Julien Lam and Dr. Akshay Krishna. The report can be seen <a href="assets\pdf\SALAZAR-LETONA_Carlos-Rafael_M1.pdf">here</a>.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
+### Abstract
+Machine learning (ML) methods have become more relevant in materials science over the last decade. They are now well recognized as effective methods for approximating extremely complex functions. Machine learning interaction potentials (MLIP) offer computation speeds close to empirical potentials, while having an accuracy close to the method used in training. In this project, the effects of the neural network (NN) architecture on its accuracy of prediction were studied. The machine learning framework n2p2 was used for the creation of potentials for gold systems from a Density-functional theory (DFT) database. The potential was then used together with Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) to calculate the surface energies and mechanical properties. These calculations were compared with values from DFT calculations as a measure of the agreement with DFT methods. Potentials were then trained using slightly different setup parameters in order to study their effect on the accuracy of the potential. The transferability of the potential was also investigated by training potentials with incomplete databases. It was found that the machine learning potential could be in good agreement with the DFT values, provided the setup parameters are properly chosen. Moreover, the potential showed good transferability, which is an important quality for the application of this potential in simulations. The results revealed that machine learning is not a one-size-fits-all solution, and that it still relies substantially on the setup parameters to properly minimize the errors with respect to the database.
