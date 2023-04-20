@@ -2,8 +2,8 @@
 layout: page
 title: LASP2
 description: An active training interface between LAMMPS, n2p2 and VASP
-img: 
-importance: 1
+img: assets/img/lasp2Graph.png
+importance: 2
 category: academic
 ---
 

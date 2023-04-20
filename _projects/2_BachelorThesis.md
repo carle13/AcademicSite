@@ -1,35 +1,13 @@
 ---
 layout: page
-title: LASP2
-description: An active training interface between LAMMPS, n2p2 and VASP
-img: 
-importance: 1
+title: Bachelor's thesis
+description: Molecular Dynamics Simulation of Porphyrin Adsorption on Clay for the formation of a Light Harvesting System
+img: assets/img/porphyrins.png
+importance: 4
 category: academic
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Bachelor's thesis project at Jacobs University under the supervision of Prof. Ulrich Kleinekathöfer and Dr. Sayan Maity. The thesis can be viewed in detail <a href="/assets/pdf/ThesisCarlosSalazar.pdf">here</a>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
+### Abstract:
+In this thesis several simulations were performed with the objective of studying the adsorption of porphyrin molecules on a montmorillonite surface. The systems simulated consisted of sixteen porphyrins and a clay surface with different charge densities. In all of the cases some adsorption of the porphyrins on the surface was observed. The simulation was performed using the GROMACS software, results were visualized using VMD and analyzed using the MDanalysis library on python. The results of the simulation are in agreement with the expected configuration from other sources. The relation between the inter-charge distance in porphyrins and clay and the adsorption capabilities of the surface was proved. It was found that the adsorption has a peak in the area where the inter-charge distance difference is 0. A hypothesis could be formed on the reason for the decrease in adsorption when electric interactions are stronger, in which the interaction of the solvent and ions is stronger.

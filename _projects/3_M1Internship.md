@@ -1,9 +1,9 @@
 ---
 layout: page
-title: LASP2
-description: An active training interface between LAMMPS, n2p2 and VASP
-img: 
-importance: 1
+title: Master's Internship 2022
+description: Machine-learning approaches to model interatomic interactions in materials
+img: assets/img/fccBulk.png
+importance: 3
 category: academic
 ---
 
