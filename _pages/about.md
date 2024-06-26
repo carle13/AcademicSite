@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>UMET Laboratory</p>
-    <p>Université de Lille</p>
-    <p>59560 Villeneuve D'Ascq</p>
+    <p>IFM (Theoretical Physics)</p>
+    <p>Linköping University, Campus Valla</p>
+    <p>581 83 Linköping</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
