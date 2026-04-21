@@ -18,4 +18,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Guatemala PhD student at Linköping University. My research focuses on studying mechanical properties of ceramics at high temperature using ab initio simulation methods as well as machine learning interaction potentials. 
+I am a Guatemala PhD student at Linköping University. My research focuses on studying mechanical properties of ceramics at high temperature using ab initio simulation methods as well as machine learning interatomic potentials. 

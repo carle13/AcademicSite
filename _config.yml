@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Carlos R.
 middle_name: 
 last_name: Salazar
-email: carlerafael@outlook.com
+email: carlos.salazar@liu.se
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Guatemalan PhD student at Linköping University in Sweden.
 footer_text: >
@@ -72,7 +72,7 @@ twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: carlos-salazar-letona # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: zTfnKR0AAAAJ&hl # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0000-0002-3126-2033 # your ORCID ID
@@ -232,8 +232,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Salazar]
+  first_name: [Carlos R.]
 
   style: apa
   locale: en
