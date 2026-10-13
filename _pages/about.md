@@ -2,20 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
+  more_info: >
     <p>IFM (Theoretical Physics)</p>
     <p>Linköping University, Campus Valla</p>
     <p>581 83 Linköping</p>
 
-news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
 ---
 
-I am a Guatemala PhD student at Linköping University. My research focuses on studying mechanical properties of ceramics at high temperature using ab initio simulation methods as well as machine learning interatomic potentials. 
+I am a Guatemala PhD student at Linköping University. My research focuses on studying mechanical properties of ceramics at high temperature using ab initio simulation methods as well as machine learning interatomic potentials.
