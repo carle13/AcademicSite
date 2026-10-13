@@ -25,4 +25,6 @@ latest_posts:
   enabled: false
 ---
 
-I am a Guatemala PhD student at Linköping University. My research focuses on studying mechanical properties of ceramics at high temperature using ab initio simulation methods as well as machine learning interatomic potentials.
+I am a Guatemalan PhD student in Theoretical Physics at Linköping University, Sweden, working with Prof. Davide Sangiovanni. I study how hard-coating ceramics and metals behave at high temperature, combining ab initio molecular dynamics with machine-learning interatomic potentials. My current work covers bonding and plasticity in Ti–Al–Si–N alloys, anomalous diffusion in bcc metals close to melting, and data-driven prediction of hard-coating properties.
+
+Before coming to Linköping, I studied physics at Jacobs University Bremen (BSc) and Aix-Marseille Université (MSc), and did research internships at CEMES and UMET (CNRS) with Dr. Julien Lam. That work on machine-learning force fields and local structure classification led to papers on how zinc oxide nanocrystals nucleate and grow, and on identifying crystal phases and defects in complex oxides.
