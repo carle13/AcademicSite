@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-11-25'
+  last_updated: '2026-11-27'
 papers:
   zTfnKR0AAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -9,10 +9,14 @@ papers:
     citations: 0
     title: Growth driven phase transitions in Zinc Oxide nanoparticles through machine-learning assisted simulations
     year: '2026'
+  zTfnKR0AAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: Concerted mass transport governs anomalous diffusion in dynamically-stabilized bcc metals
+    year: '2026'
   zTfnKR0AAAAJ:UeHWp8X0CEIC:
     citations: 0
-    title: 'HADB Database: From Data Generation to AI-Supported Predictions of Properties of Hard-Coating Alloy'
-    year: Unknown Year
+    title: 'HADB database: From data generation to AI-supported predictions of properties of hard-coating alloys'
+    year: '2026'
   zTfnKR0AAAAJ:d1gkVwhDpl0C:
     citations: 8
     title: 'All-around local structure classification with supervised learning: The example of crystal phases and dislocations in complex oxides'
@@ -20,7 +24,7 @@ papers:
   zTfnKR0AAAAJ:qjMakFHDy7sC:
     citations: 0
     title: "Bonding adaptability and transformation plasticity in Ti\u2013Al\u2013Si\u2013N alloys"
-    year: Unknown Year
+    year: '2026'
   zTfnKR0AAAAJ:u-x6o8ySG0sC:
     citations: 6
     title: 'Excitation Energy Transfer between Porphyrin Dyes on a Clay Surface: A Study Employing Multifidelity Machine Learning'
